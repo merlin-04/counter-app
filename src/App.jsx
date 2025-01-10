@@ -6,11 +6,10 @@ function App() {
 
   return (
     <>
-      <div className='bg-dark'>
-        <h1 className='text-center text-light fw-bolder'>Counter App</h1>
-        <Counter />
+      <h1 className='text-center mt-5'>Counter App</h1>
+      <div style={{minHeight :'70vh'}} className='d-flex justify-content-center align-items-center w-100'>
+      <Counter />
       </div>
-
     </>
   )
 }

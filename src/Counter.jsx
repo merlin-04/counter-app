@@ -18,7 +18,7 @@ const Counter = () => {
 
     return (
         <div className='border rounded p-5 text-center'>
-            <h1 style={{ fontSize: "100px" }} className='text-center fs-3 fw-bolder m-3 text-light'>{count}</h1>
+            <h1 style={{ fontSize: "100px" }}>{count}</h1>
             <div style={{ width: "500px" }} className='d-flex justify-content-between my-5'>
                 <button onClick={() => dispatch(decrement())} className='btn btn-warning'>Decrement</button>
                 <button onClick={() => dispatch(reset())} className='btn btn-danger'>Reset</button>
